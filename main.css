@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-image: url(bkg-main.jpg);
+    background-size: cover;
+    background-position: bottom;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+body:hover {
+    cursor: default;
+}
+
+.text {
+    margin: 0;
+    padding: 3vw;
+    font-size: calc(0.5vw + 15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bold-text {
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: calc(2vw + 15px);
+}
+
+.textdiv {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.nextbtn {
+    margin: 0;
+    padding: 0;
+    height: calc(5vw + 25px);
+    width: calc(14.5vw + 40px);
+    border-radius: 3px;
+    background-color: #2155ff;
+    color: white;
+    font-size: calc(2.5vw + 8px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    outline: 0.1px solid white;
+    transition: 0.5s;
+}
+
+.nextbtn:hover {
+    background-color: #2140ff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.textdiv1 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+    font-size: 50px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.textdiv1>.btn {
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.7s;
+}
+
+.textdiv1>.btn:hover {
+    cursor: pointer;
+    color: black;
+    transition: 0.7s;
+}
+
+.textdiv1>.btn0 {
+    background-color: limegreen;
+}
+
+.textdiv1>.btn1 {
+    background-color: darkgoldenrod;
+}
